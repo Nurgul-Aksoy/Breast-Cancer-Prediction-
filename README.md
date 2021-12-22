@@ -1,2 +1,8 @@
 # Breast-Cancer-Prediction-
 The aim of the project is to create an early finding for breast cancer diagnosis. It is a machine learning project that makes predictions for benign and malignant tumors in the diagnosis of breast cancer.
+
+Logistic regression, a machine learning algorithm, was used in this project to detect breast cancer. Using the dataset from Kaggle, data was preprocessed, the model was built, the model was tested, the prediction process was performed, and the success rate was measured. The linear relationship between the two random variables was determined by the correlation map. The amount of benign and malignant cells was visualized with the Seaborn library. After defining the dependent and independent variables, the data set was divided into training and testing. By converting class labels to integers (0,1) with LabelEncoder, benign and malignant cells were processed in the data set as integer values. StandardScaler 0-1 transformation was performed for the independent variables of the training and test data. During the model setup phase, the logistic regression model was called from within the sklearn library and the training data were fitted in the model. The estimation process on the established model was done for the training and test data.
+
+    The Confusion Matrix was used to evaluate the performance of the classification models, comparing the estimates of the target attribute with the actual values.
+     Accuracy score was used to find the correct prediction rate.
+A 10-fold cross validation was performed by including the cross val score in the model selection of the Sklearn library.
